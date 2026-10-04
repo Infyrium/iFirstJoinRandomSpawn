@@ -4,11 +4,13 @@ import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import net.infyrium.ifirstjoinrandomspawn.listeners.PlayerJoinListener;
+import net.infyrium.ifirstjoinrandomspawn.utils.ConfigUpdater;
 
 public class iFirstJoinRandomSpawnMain extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        ConfigUpdater.backupIfOutdated(this, "config.yml");
         saveDefaultConfig();
 
         Bukkit.getPluginManager().registerEvents(new PlayerJoinListener(this), this);

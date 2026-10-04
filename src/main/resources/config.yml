@@ -1,3 +1,5 @@
 settings:
   world: world
   radius: 10000
+
+configVersion: 1 # Format version of this file, do not change
