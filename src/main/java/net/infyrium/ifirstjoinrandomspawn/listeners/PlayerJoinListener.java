@@ -1,4 +1,4 @@
-package net.infyrium.ifirstjoinrandomspawn;
+package net.infyrium.ifirstjoinrandomspawn.listeners;
 
 import java.util.Random;
 import org.bukkit.Bukkit;
@@ -7,6 +7,8 @@ import org.bukkit.World;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
+
+import net.infyrium.ifirstjoinrandomspawn.iFirstJoinRandomSpawnMain;
 
 public class PlayerJoinListener implements Listener {
 

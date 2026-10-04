@@ -3,6 +3,8 @@ package net.infyrium.ifirstjoinrandomspawn;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import net.infyrium.ifirstjoinrandomspawn.listeners.PlayerJoinListener;
+
 public class iFirstJoinRandomSpawnMain extends JavaPlugin {
 
     @Override
