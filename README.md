@@ -1,1 +1,1 @@
-# mc-ifirstjoinrandomspawn
+# iFirstJoinRandomSpawn
