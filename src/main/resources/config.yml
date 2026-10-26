@@ -1,5 +1,6 @@
 settings:
   world: world
-  radius: 10000
+  radius: 10000 # Square from -radius to radius around 0, 0
+  attempts: 10 # Random places checked for safety (no water, lava, leaves); none fits - the default spawn
 
 configVersion: 1 # Format version of this file, do not change

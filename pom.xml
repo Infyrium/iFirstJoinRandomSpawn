@@ -21,7 +21,7 @@
         <manifest.github>https://github.com/euj3ne</manifest.github>
 
         <!-- Dependencies -->
-        <paper.api.version>1.21.4-R0.1-SNAPSHOT</paper.api.version>
+        <paper.api.version>1.21.11-R0.1-SNAPSHOT</paper.api.version>
 
         <!-- Maven plugins -->
         <maven.compiler.plugin.version>3.13.0</maven.compiler.plugin.version>
