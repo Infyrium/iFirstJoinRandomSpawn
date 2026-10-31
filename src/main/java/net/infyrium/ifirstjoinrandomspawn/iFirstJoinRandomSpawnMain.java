@@ -1,6 +1,5 @@
 package net.infyrium.ifirstjoinrandomspawn;
 
-import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import net.infyrium.ifirstjoinrandomspawn.listeners.SpawnLocationListener;
@@ -18,7 +17,7 @@ public class iFirstJoinRandomSpawnMain extends JavaPlugin {
 
         randomSpawn = new RandomSpawn(this);
 
-        Bukkit.getPluginManager().registerEvents(new SpawnLocationListener(this), this);
+        getServer().getPluginManager().registerEvents(new SpawnLocationListener(this), this);
 
         getLogger().info("Plugin has been enabled!");
         getLogger().info("Plugin developed by: " + String.join(", ", getPluginMeta().getAuthors()));
